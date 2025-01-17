@@ -1,0 +1,17 @@
+User-agent: Yandex
+Allow: /
+Sitemap: https://ug-pellet.ru/sitemap.xml
+User-agent: Googlebot
+Allow: /
+Sitemap: https://ug-pellet.ru/sitemap.xml
+User-agent: *
+Allow: /
+
+User-agent: Yandex
+Disallow: /?etext=2202.qzUgMBz27vm93TmX_0nPJ-MI8jWKZxxsGxtGI0wUXrsp2c8p-UsJtRE4z0woNcLdWrAgOu9MvLT4vrGvo-JNKzyLsGRpAXfNtLssyS-utv9remtocmlhdXR2a2h2bW5m.a399899cde81b13abd618f1676e9c7ec6f177fb4
+Disallow: /?etext=2202.Wuyu_ig7R8LPLKYe4hnudaPsh1o65BIlul4QLVFQkyE-JXk77ZIssigB8gCcwWVxFmj-fVdRoQ1MFIb7vE5NVGR2b2pqY2dwdGNxaWxqbm8.a23194f44a623d10440c0eb6e9546bf9c70ebf80
+Disallow: /?etext=2202.W62d7bto2BQYr2V2Lrs5qy4a6wcXyP-TvviagWQNDNVqdXhjaHN2dmlndG9kbG55.3621ab02749d6cf1c9843ac59b9ffe54ca0e0265
+Disallow: /?etext=2202.ScwCRD1_IK-r6D6r3Fh8f4joeyrHBZsLLgpVwpyAjgpjdG52Zmtlbmt5cG96Y2Rj.9f34a41b5f356fcc0565466583f4374df3a82ab9
+
+Sitemap: https://ug-pellet.ru/sitemap.xml
+

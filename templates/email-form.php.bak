@@ -1,0 +1,69 @@
+<?php
+?>
+
+<div class="popup email-form-block" id="popup">
+    <div class="popup__body">
+        <div class="popup-scroll">
+            <div class="popup__body_top">
+                <div class="popup__body_top-title" data-title="Заполните форму" data-sent-title="Заявка успешно отправлена">
+                    Заполните форму
+                </div>
+                <div class="popup__body_top-close" id="pop-close">
+                    <picture>
+                        <source srcset="./assets/img/pop-close.webp" type="image/webp">
+                        <img src="./assets/img/pop-close.png" alt=""></picture>
+                </div>
+            </div>
+
+            <form id="email-form">
+                <div class="error-block ds-none"></div>
+
+                <div class="form-field">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="telephone">Номер телефона</label>
+                    <input type="text" id="telephone" name="telephone" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="address">Город или населенный пункт</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="weight">Колличество в тоннах</label>
+                    <input type="text" id="weight" name="weight" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Электронная почта</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+
+                <div class="form-field form-field-submit">
+                    <button type="submit" class="btn-green" data-alt-text="Отправка" data-text="Оптравить заявку">
+                        Оптравить заявку
+                    </button>
+                </div>
+
+                <div class="form-field-checkbox">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">Согласен на обработку персональных данных</label>
+                </div>
+    <div class="form-description">
+                    <p> <b>*</b> заполнение формы не обязывает вас к покупке</p>
+                    <p> <b>*</b> все данные защищены и не будут переданы третьим лицам</p>
+                </div>
+            </form>
+
+            <div class="send-success-block ds-none">
+                <button type="submit" class="btn-green close-btn">
+                   Ок
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
